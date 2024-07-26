@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Management</title>
+    <link rel="stylesheet" href="job2.css">
+</head>
+<body>
+    <header>
+        <h1>Searching for jobs? Here you are</h1>
+        <nav>
+            <ul>
+                <li><a href="#post-job">Post a Job</a></li>
+                <li><a href="#search-job">Search Jobs</a></li>
+                <li><a href="#apply-job">Apply for a Job</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="post-job">
+        <h2>Post a Job</h2>
+        
+        <form action="search_job.php" method="post">
+            <label for="title">Job Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Job Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="requirements">Requirements:</label>
+            <textarea id="requirements" name="requirements" required></textarea>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="salary">Salary:</label>
+            <input type="text" id="salary" name="salary" required>
+
+            <label for="employment-type">Employment Type:</label>
+            <select id="employment-type" name="employment-type" required>
+                <option value="full-time">Full-time</option>
+                <option value="part-time">Part-time</option>
+                <option value="contract">Contract</option>
+                <option value="temporary">Temporary</option>
+            </select>
+
+            <button type="submit">Post Job</button>
+
+        </form>
+        
+    </section>
+
+    <section id="search-job">
+        <h2>Search Jobs</h2>
+        <form action="search_job.php" method="post">
+            <label for="keyword">Keyword:</label>
+            <input type="text" id="keyword" name="keyword" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+
+            <label for="salary-range">Salary Range:</label>
+            <input type="text" id="salary-range" name="salary-range" required>
+
+            <button type="submit">Search</button>
+        </form>
+        
+    </section>
+
+    <section id="apply-job">
+        <h2>Apply for a Job</h2>
+        <form action="apply_job.php" method="post">
+            <label for="apply-method">Apply Method:</label>
+            <select id="apply-method" name="apply-method" required>
+                <option value="direct">Direct Apply</option>
+                <option value="external">Apply via External Link</option>
+            </select>
+
+            <button type="submit">Apply</button>
+        </form>
+        
+    </section>
+
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

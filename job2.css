@@ -1,0 +1,117 @@
+body {
+    
+    background-image: linear-gradient(67.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(22.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(112.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(90deg, rgb(231, 231, 231),rgb(195, 195, 195)); background-blend-mode:overlay,overlay,overlay,normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(112.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(67.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(157.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(90deg, rgb(46, 154, 118),rgb(29, 3, 176));
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(8, 1, 1);
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in;
+}
+
+form:hover {
+    transform: scale(1.0);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #2575fc;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(112.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(67.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(157.5deg, rgba(140, 108, 222,0.2) 0%, rgba(140, 108, 222,0.2) 16.667%,rgba(79, 175, 206,0.2) 16.667%, rgba(79, 175, 206,0.2) 33.334%,rgba(109, 141, 214,0.2) 33.334%, rgba(109, 141, 214,0.2) 50.001%,rgba(48, 209, 198,0.2) 50.001%, rgba(48, 209, 198,0.2) 66.668%,rgba(201, 40, 238,0.2) 66.668%, rgba(201, 40, 238,0.2) 83.335%,rgba(170, 74, 230,0.2) 83.335%, rgba(170, 74, 230,0.2) 100.002%),linear-gradient(90deg, rgb(46, 154, 118),rgb(29, 3, 176));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    color: #679c93;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    transition: ease-out ;
+}
+
