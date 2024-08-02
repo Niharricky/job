@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="carrierup.png" alt="Company Logo">
+        </div>
+    </header>
+
+    <div class="form-container">
+        <h1>Post a Job</h1>
+        <form id="job-posting-form">
+            <label for="job-title">Job Title:</label>
+            <input type="text" id="job-title" name="job-title" required>
+
+            <label for="company-name">Company Name:</label>
+            <input type="text" id="company-name" name="company-name" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="job-type">Job Type:</label>
+            <select id="job-type" name="job-type" required>
+                <option value="full-time">Full-time</option>
+                <option value="part-time">Part-time</option>
+                <option value="contract">Contract</option>
+                <option value="internship">Internship</option>
+            </select>
+
+            <label for="salary">Salary:</label>
+            <input type="text" id="salary" name="salary">
+
+            <label for="job-description">Job Description:</label>
+            <textarea id="job-description" name="job-description" required></textarea>
+
+            <div class="button-group">
+                <button type="submit" id="post-job-button">Post Job</button>
+                <button type="button" id="post-events-button">Post Event/Challenge</button>
+            </div>
+            <script>
+                document.getElementById('post-events-button').addEventListener('click', function() {
+                    window.location.href = 'post-events.html';
+                });
+            </script>
+        </form>
+    </div>
+</body>
+</html>

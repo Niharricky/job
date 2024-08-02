@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="carrierup.png" alt="Company Logo">
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="main-content">
+            <h1>Let's hire your next great candidate. <span class="highlight">Fast.</span></h1>
+            <button id="post-job-button">Post a free job*</button>
+        </div>
+        <div class="picture-container">
+            <img src="job24.jpg" alt="Hiring Image">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('post-job-button').addEventListener('click', function() {
+            window.location.href = 'post-job.html';
+        });
+    </script>
+</body>
+</html>
